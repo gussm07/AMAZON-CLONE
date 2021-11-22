@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # LIVE DEMO ---------------
 #---------------------------
 
-https://gussm07.github.io/ 
+https://gussm07.github.io/AMAZON-CLONE/
 
 #---------------------------
 

@@ -1,0 +1,51 @@
+.product {
+  /* goes into a row */
+  display: flex;
+  flex-direction: column;
+  /* alinea todo al centro del contenedor */
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+.product__rating {
+  display: flex;
+}
+
+.product > img {
+  max-height: 200px;
+  width: 100%;
+  /* mete a la imagen al contenedor */
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+/* ACCEDEMOS A LAS PROPIEDADES DEL BOTON */
+.product > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.product__price {
+  margin-top: 5px;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.product:hover {
+  border: 1px solid #f0c14b;
+  -moz-box-shadow: 0 0 10px #f0c14b;
+  -webkit-box-shadow: 0 0 10px #f0c14b;
+  box-shadow: 0 0 15px #f0c14b;
+}

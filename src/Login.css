@@ -1,0 +1,143 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__logo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.login__container {
+  /* ancho del contenedor */
+  width: 300px;
+  height: fit-content;
+  /* pone el texto en vertical */
+  display: flex;
+  /* pone el texto en horizontal debajo de password*/
+  flex-direction: column;
+  /* borde del contenedor */
+  border-radius: 5px;
+  /* marca una linea al contenedor */
+  border: 1px solid lightgrey;
+  /* margen en los 4 lados de 20px */
+  padding: 20px;
+}
+
+.login__container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login__container > form > h5 {
+  /* margen entre el nombre y el input de 5px */
+  margin-bottom: 5px;
+}
+
+.login__container > form > input {
+  /* alto de los input */
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  /* amplia los input al 98% de ancho */
+  width: 98%;
+  border-color: aliceblue;
+}
+
+/* EFECTO DEL BORDE EN INPUTS */
+.login__container > form > input:focus {
+  outline: none !important;
+  border-color: orange;
+  box-shadow: 0 0 8px orange;
+}
+
+/* EFECTO DEL BORDE EN BOTON SIGN IN */
+.login__container > form > button:hover {
+  outline: none !important;
+  border-color: orange;
+  box-shadow: 0 0 8px orange;
+}
+
+.login__container > p {
+  font-size: 12px;
+}
+
+/* EMPIEZA efecto de boton SIGNIN */
+
+.login__signInButton {
+  background-image: linear-gradient(
+    to right,
+    #f09819 0%,
+    #edde5d 51%,
+    #f09819 100%
+  );
+}
+.login__signInButton {
+  margin-top: 4px;
+  margin-bottom: 20px;
+  border-color: gray;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.8s;
+  background-size: 200% auto;
+  color: black;
+  box-shadow: 0 0 20px #eee;
+  height: 30px;
+  width: 100%;
+}
+/* CUANDO PASA EL MOUSE SOBRE EL BOTON */
+.login__signInButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  text-decoration: none;
+}
+
+/* TERMINA efecto de boton SIGNIN */
+
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: darkgray;
+}
+
+/* EMPIEZA efecto de boton CREATE YOUR AMAZON ACCOUNT */
+
+.login__registerButton {
+  background-image: linear-gradient(
+    to right,
+    #959595 0%,
+    #c7c7c7 51%,
+    #e6e6e6 100%
+  );
+}
+.login__registerButton {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-color: gray;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.8s;
+  background-size: 200% auto;
+  color: black;
+  box-shadow: 0 0 20px #eee;
+  height: 30px;
+  width: 100%;
+}
+/* CUANDO PASA EL MOUSE SOBRE EL BOTON */
+.login__registerButton:hover {
+  background-position: right center; /* change the direction of the change here */
+  text-decoration: none;
+}
+
+/* TERMINA efecto de boton CREATE YOUR AMAZON ACCOUNT */

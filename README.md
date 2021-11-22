@@ -3,7 +3,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # LIVE DEMO ---------------
-https://gussm07.github.io/ |
+#---------------------------
+
+https://gussm07.github.io/ 
+
 #---------------------------
 
 ## Available Scripts
